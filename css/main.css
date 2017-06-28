@@ -1,0 +1,123 @@
+/*
+* @Author: 张驰阳
+* @Date:   2017-06-28 11:59:00
+* @Last Modified by:   张驰阳
+* @Last Modified time: 2017-06-28 16:42:31
+*/
+
+body,
+html {
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+header {
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background: #ea9401
+}
+
+#app {
+    position: relative;
+}
+
+
+.content {
+    background: #e0e0e0;
+    padding: 5px 0;
+}
+
+.page {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #383838;
+}
+
+.page header {
+    text-align: left;
+    color: #fff;
+    background: #000;
+    padding-left: 1em;
+}
+
+.page .weui-article h1 {
+    color: #fff;
+}
+
+.page .weui-article section {
+    padding-top: 20px;
+}
+
+
+/*navbar*/
+
+.navbar {
+    height: 36px;
+    line-height: 36px;
+    position: relative;
+    background: #fff;
+}
+
+.navbar .weui-navbar__item {
+    padding: 0;
+    font-size: 13px;
+}
+
+.navbar .weui-navbar__item:after {
+    border-right: none;
+}
+
+.navbar .weui-bar__item_on {
+    color: #ea9401;
+    background: #fff;
+    border-bottom: 1px solid #ea9401;
+}
+
+
+/*newList*/
+
+.newsList {
+    width: 90%;
+    background-color: #fff;
+    margin: 10px auto;
+    border-radius: 6px;
+    padding: 8px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+
+.newsList .weui-media-box__hd {
+    width: 90px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.newsList .weui-media-box__hd img {
+    vertical-align: middle;
+}
+
+.newsList h4.weui-media-box__title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 14px;
+    line-height: 1.3;
+    white-space: normal;
+}
+
+.newsList p.weui-media-box__desc {
+    margin-top: 6px;
+    font-size: 12px;
+}
